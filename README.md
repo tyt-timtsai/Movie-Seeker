@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# First Thought about Structure
+This is a SPA, with same header,footer and different contents, so I need a header component and a footer component. For the contents, I will need a Search component, a reusable Card component, and a Pagination component.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+App.js
+|-Header
+|-Content
+|   |-Home
+|   |   |-Search bar
+|   |
+|   |-Search Result
+|   |   |-Cards
+|   |   |-Pagination
+|   |   
+|   |-Item Detail
+|
+|-Footer
 
-## Available Scripts
+### How did you decide which technologies to use as part of your solution?
+* For different page, I use "React Routor" to make the content navigate to Home page, Search result page and Item detail page.
+* React Hooks manipulate states/props passing and changing.
+* Using "axios" to fetch data.
+* Material UI for layout.
 
-In the project directory, you can run:
+### Are there any improvements you could make to your submission?
+* I think I can make the pagination fetch function better. During this project, I spent most of time at learning how to create pagination, because this is my first time implement pafination.
+* For any other parts, might be the UI design and efficiency improvement.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### What would you do differently if you were allocated more time?
+* First, I want to make pagination run better, cause I know there is something needed to be fix.(next and previous buttons are not work well now.)
+* Second, make my code more clean, and make details better.
+* Third, make UI better, there are still lots thing I can improve.
+* Finally, maybe add a navigation for better user experience and add link to footages of movie in item detail page.

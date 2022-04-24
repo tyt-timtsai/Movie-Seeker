@@ -1,0 +1,19 @@
+.detail-container {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#movie-title {
+    font-size: 1.35rem;
+    overflow-wrap: break-word;
+}
+
+@media screen and (min-width:600px) {
+    .detail-container {
+        flex-direction: row;
+    }
+    
+}

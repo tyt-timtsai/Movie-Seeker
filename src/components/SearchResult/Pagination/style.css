@@ -1,0 +1,8 @@
+#page-container {
+    position: relative;
+    bottom: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

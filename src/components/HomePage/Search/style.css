@@ -1,0 +1,29 @@
+.search-title{
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (min-width:600px) {
+    .search-title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .search-title {
+        font-size: 2.5rem;
+    }
+    .input-container{
+        flex-direction: row;
+        gap: 15px;
+    }
+}
