@@ -20,7 +20,7 @@ function App() {
   const [error, setError] = useState(null);
   const [page, setPage] = useState(1);
   const [totalResult, setTotalResult] = useState(0);
-  const OMDb_API = `http://www.omdbapi.com/?apikey=${API.API_Key}&s=${title}&y=${year}&type=${type}&page=${page}`;
+  const OMDb_API = `https://www.omdbapi.com/?apikey=${API.API_Key}&s=${title}&y=${year}&type=${type}&page=${page}`;
   const navigate = useNavigate();
 
   //handle search inputs
