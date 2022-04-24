@@ -1,19 +1,7 @@
 # First Thought about Structure
 This is a SPA, with same header,footer and different contents, so I need a header component and a footer component. For the contents, I will need a Search component, a reusable Card component, and a Pagination component.
 
-App.js
-|-Header
-|-Content
-|   |-Home
-|   |   |-Search bar
-|   |
-|   |-Search Result
-|   |   |-Cards
-|   |   |-Pagination
-|   |   
-|   |-Item Detail
-|
-|-Footer
+<img src="https://github.com/tyt-timtsai/Movie-Seeker/blob/main/images/file%20structure.png" height="50%" width="50%">
 
 ### How did you decide which technologies to use as part of your solution?
 * For different page, I use "React Routor" to make the content navigate to Home page, Search result page and Item detail page.
