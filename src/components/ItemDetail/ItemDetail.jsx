@@ -13,7 +13,7 @@ const ItemDetail = () => {
   //fetch single movie data
   useEffect(()=>{
     setLoading(true);
-    axios.get(`http://www.omdbapi.com/?t=${id}&apikey=${API.API_Key}`)
+    axios.get(`https://www.omdbapi.com/?t=${id}&apikey=${API.API_Key}`)
     .then((data) => {
       console.log(data);
       setMovie(data.data)
